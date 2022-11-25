@@ -1,0 +1,12 @@
+.h3 {display: inline;}
+
+/* Portrait orientation */
+@media screen and (orientation: portrait) {
+.h1 {display: inline;}
+.h2 {display: none;}
+}
+/* Landscape orientation */
+@media screen and (orientation: landscape) {
+.h1 {display: none;}
+.h2 {display: inline;}
+}
